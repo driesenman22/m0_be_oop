@@ -142,3 +142,5 @@ puts hobbit1.is_adult
 puts hobbit1.is_old
 
 puts Hobbit.new("Samwise", "Brave").has_ring
+
+# I am fairly certain somehing is wrong here despite getting outputs. I am still getting false on is_old and I ahve no idea why. 
