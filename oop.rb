@@ -8,9 +8,9 @@
 class Unicorn
     
     attr_reader :color, :name
-def initialize(name, color = silver)
+def initialize(name, color = "silver")
     @name = name
-    @color = "Silver"
+    @color = color
 end
 
 def say(statement)
@@ -127,7 +127,7 @@ puts dragon1.is_hungry
 
 
 
-hobbit1 = Hobbit.new("Frodo", "fearless")
+hobbit1 = Hobbit.new("Samwise", "fearless")
 
 33.times {hobbit1.celebrate_birthday}
 
